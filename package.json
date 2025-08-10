@@ -1,0 +1,37 @@
+{
+  "name": "neurolover-landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:css": "stylelint '**/*.{css,scss}'",
+    "deploy": "next build && next export && gh-pages -d out"
+  },
+  "dependencies": {
+    "next": "15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swiper": "^11.2.6"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "classnames": "^2.5.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "eslint-plugin-prettier": "^5.5.0",
+    "gh-pages": "^6.3.0",
+    "stylelint": "^16.20.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recommended": "^16.0.0",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-order": "^7.0.0",
+    "typescript": "^5"
+  },
+  "homepage": "https://serveyk0-work.github.io/nl"
+}

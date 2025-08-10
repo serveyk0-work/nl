@@ -1,0 +1,30 @@
+.card {
+  display: inline-flex;
+  background: #CBB8E01F;
+  padding: 12px;
+  padding-inline-start: 16px;
+  border-radius: 20px;
+  border: 1.5px solid #0000001A;
+  align-items: center;
+  gap: 16px;
+  white-space: nowrap;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px
+}
+
+@media (max-width: 742px) {
+  .card {
+    font-size: 12px;
+    line-height: 32px;
+    padding: 8px;
+    padding-inline-start: 12px;
+    gap: 4px;
+  }
+
+  .cross {
+    width: 16px;
+    height: 16px;
+  }
+}
